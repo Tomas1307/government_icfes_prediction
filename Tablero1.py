@@ -5,6 +5,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
+
 # Cargar datos
 file_path = "data/modelo_con_predicciones.csv"  
 df = pd.read_csv(file_path)
