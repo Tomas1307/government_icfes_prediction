@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 
 
 # Cargar datos
-file_path = "data/modelo_con_predicciones.csv"  
+file_path = ".\\data/modelo_con_predicciones.csv"  
 df = pd.read_csv(file_path)
 
 # Crear una nueva columna 'state' a partir de las columnas one-hot de los estados
@@ -92,7 +92,6 @@ app.layout = dbc.Container([
     ])
 ])
 
-# Callbacks
 @app.callback(
     [Output('scatter-price-sqft', 'figure'),
      Output('boxplot-price-city', 'figure'),
@@ -105,19 +104,35 @@ app.layout = dbc.Container([
      Input('amenities-dropdown', 'value')]
 )
 def update_graphs(selected_cities, selected_states, selected_boxplot_variable, selected_amenities):
-    scatter_fig = px.scatter(df, x='square_feet', y='y_actual', color='price_category',
+    # Copia del DataFrame original para filtrar
+    filtered_df = df.copy()
+
+    # Filtrado por ciudades
+    if selected_cities:
+        # Suponiendo que las columnas de ciudades son one-hot y tienen 1 para indicar la presencia.
+        # Se filtra las filas que tengan al menos 1 en alguna de las columnas seleccionadas.
+        filtered_df = filtered_df[filtered_df[selected_cities].sum(axis=1) > 0]
+
+    # Filtrado por estados
+    if selected_states:
+        # Convertir valores seleccionados (ej: "state_CA") a "CA" para comparar con la columna 'state'
+        selected_states_clean = [s.replace("state_", "") for s in selected_states]
+        filtered_df = filtered_df[filtered_df['state'].isin(selected_states_clean)]
+    
+    # Crear gráficos utilizando filtered_df
+    scatter_fig = px.scatter(filtered_df, x='square_feet', y='y_actual', color='price_category',
                              title="Precio vs. Metros Cuadrados", labels={'y_actual': 'Precio'})
     
-    boxplot_fig = px.box(df, x=selected_boxplot_variable, y='y_actual',
-                          title=f"Distribución de Precios por {selected_boxplot_variable}", points=False)  
+    boxplot_fig = px.box(filtered_df, x=selected_boxplot_variable, y='y_actual',
+                          title=f"Distribución de Precios por {selected_boxplot_variable}", points=False)
     
-    amenities_impact = df[selected_amenities + ['y_actual']].melt(id_vars='y_actual')
+    amenities_impact = filtered_df[selected_amenities + ['y_actual']].melt(id_vars='y_actual')
     amenities_fig = px.box(amenities_impact, x='variable', y='y_actual', title="Impacto de Amenidades en Precio",
                            boxmode='overlay', points=False)
     
-    segmentation_fig = px.histogram(df, x='price_category', title="Segmentación de Precios")
+    segmentation_fig = px.histogram(filtered_df, x='price_category', title="Segmentación de Precios")
     
-    state_avg_price = df.groupby('state')['y_actual'].mean().reset_index()
+    state_avg_price = filtered_df.groupby('state')['y_actual'].mean().reset_index()
     heatmap_fig = px.choropleth(
         state_avg_price, 
         locations='state', 
@@ -141,9 +156,10 @@ def update_graphs(selected_cities, selected_states, selected_boxplot_variable, s
             )
         )
     
-    heatmap_fig.update_layout(height=700)  
+    heatmap_fig.update_layout(height=700)
     
     return scatter_fig, boxplot_fig, amenities_fig, segmentation_fig, heatmap_fig
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
