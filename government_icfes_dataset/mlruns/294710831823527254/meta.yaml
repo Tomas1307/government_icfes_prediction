@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/294710831823527254
+creation_time: 1747832978832
+experiment_id: '294710831823527254'
+last_update_time: 1747832978832
+lifecycle_stage: active
+name: grid_conv_regression

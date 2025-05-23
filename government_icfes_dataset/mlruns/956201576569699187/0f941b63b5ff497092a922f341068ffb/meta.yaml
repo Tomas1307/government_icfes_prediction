@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/956201576569699187/0f941b63b5ff497092a922f341068ffb/artifacts
+end_time: 1747893956362
+entry_point_name: ''
+experiment_id: '956201576569699187'
+lifecycle_stage: active
+run_id: 0f941b63b5ff497092a922f341068ffb
+run_name: dapper-whale-609
+run_uuid: 0f941b63b5ff497092a922f341068ffb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747893944232
+status: 3
+tags: []
+user_id: ASUS

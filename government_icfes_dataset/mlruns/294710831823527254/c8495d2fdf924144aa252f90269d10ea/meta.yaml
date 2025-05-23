@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294710831823527254/c8495d2fdf924144aa252f90269d10ea/artifacts
+end_time: 1747861558853
+entry_point_name: ''
+experiment_id: '294710831823527254'
+lifecycle_stage: active
+run_id: c8495d2fdf924144aa252f90269d10ea
+run_name: redolent-mare-714
+run_uuid: c8495d2fdf924144aa252f90269d10ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747861546566
+status: 3
+tags: []
+user_id: ASUS

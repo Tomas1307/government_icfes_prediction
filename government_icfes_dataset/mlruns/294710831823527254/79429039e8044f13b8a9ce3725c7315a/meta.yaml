@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294710831823527254/79429039e8044f13b8a9ce3725c7315a/artifacts
+end_time: 1747866492227
+entry_point_name: ''
+experiment_id: '294710831823527254'
+lifecycle_stage: active
+run_id: 79429039e8044f13b8a9ce3725c7315a
+run_name: sincere-snipe-122
+run_uuid: 79429039e8044f13b8a9ce3725c7315a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747866480009
+status: 3
+tags: []
+user_id: ASUS

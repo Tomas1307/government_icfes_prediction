@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/956201576569699187/85a614d4f28049b59ce07b06920ee69d/artifacts
+end_time: 1747923365473
+entry_point_name: ''
+experiment_id: '956201576569699187'
+lifecycle_stage: active
+run_id: 85a614d4f28049b59ce07b06920ee69d
+run_name: able-ape-305
+run_uuid: 85a614d4f28049b59ce07b06920ee69d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747923353159
+status: 3
+tags: []
+user_id: ASUS

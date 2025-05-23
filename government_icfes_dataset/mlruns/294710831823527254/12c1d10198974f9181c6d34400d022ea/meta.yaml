@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294710831823527254/12c1d10198974f9181c6d34400d022ea/artifacts
+end_time: 1747857048819
+entry_point_name: ''
+experiment_id: '294710831823527254'
+lifecycle_stage: active
+run_id: 12c1d10198974f9181c6d34400d022ea
+run_name: rare-rat-275
+run_uuid: 12c1d10198974f9181c6d34400d022ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747857034897
+status: 3
+tags: []
+user_id: ASUS

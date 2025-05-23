@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294710831823527254/1457e237d9b64bf2ad494395a64d778c/artifacts
+end_time: 1747877369332
+entry_point_name: ''
+experiment_id: '294710831823527254'
+lifecycle_stage: active
+run_id: 1457e237d9b64bf2ad494395a64d778c
+run_name: colorful-cow-872
+run_uuid: 1457e237d9b64bf2ad494395a64d778c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747877356012
+status: 3
+tags: []
+user_id: ASUS

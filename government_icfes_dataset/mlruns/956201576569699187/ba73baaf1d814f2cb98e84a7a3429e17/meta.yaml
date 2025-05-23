@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/956201576569699187/ba73baaf1d814f2cb98e84a7a3429e17/artifacts
+end_time: 1747946509413
+entry_point_name: ''
+experiment_id: '956201576569699187'
+lifecycle_stage: active
+run_id: ba73baaf1d814f2cb98e84a7a3429e17
+run_name: merciful-shrew-227
+run_uuid: ba73baaf1d814f2cb98e84a7a3429e17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747946458250
+status: 3
+tags: []
+user_id: ASUS

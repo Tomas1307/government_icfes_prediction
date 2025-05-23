@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/956201576569699187/fcf91818d4aa488a8667afd8555be3af/artifacts
+end_time: 1747899063430
+entry_point_name: ''
+experiment_id: '956201576569699187'
+lifecycle_stage: active
+run_id: fcf91818d4aa488a8667afd8555be3af
+run_name: worried-gnat-604
+run_uuid: fcf91818d4aa488a8667afd8555be3af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747899051206
+status: 3
+tags: []
+user_id: ASUS

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294710831823527254/f49af6a86d4b4e80b34da3aaff118e13/artifacts
+end_time: 1747860149580
+entry_point_name: ''
+experiment_id: '294710831823527254'
+lifecycle_stage: active
+run_id: f49af6a86d4b4e80b34da3aaff118e13
+run_name: bedecked-steed-181
+run_uuid: f49af6a86d4b4e80b34da3aaff118e13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747860136799
+status: 3
+tags: []
+user_id: ASUS

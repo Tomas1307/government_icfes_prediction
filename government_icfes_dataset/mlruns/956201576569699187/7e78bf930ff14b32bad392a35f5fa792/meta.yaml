@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/956201576569699187/7e78bf930ff14b32bad392a35f5fa792/artifacts
+end_time: 1747926148983
+entry_point_name: ''
+experiment_id: '956201576569699187'
+lifecycle_stage: active
+run_id: 7e78bf930ff14b32bad392a35f5fa792
+run_name: vaunted-perch-473
+run_uuid: 7e78bf930ff14b32bad392a35f5fa792
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747926136776
+status: 3
+tags: []
+user_id: ASUS

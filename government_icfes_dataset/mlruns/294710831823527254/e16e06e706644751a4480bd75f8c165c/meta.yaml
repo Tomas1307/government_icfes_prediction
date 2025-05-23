@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294710831823527254/e16e06e706644751a4480bd75f8c165c/artifacts
+end_time: 1747880935021
+entry_point_name: ''
+experiment_id: '294710831823527254'
+lifecycle_stage: active
+run_id: e16e06e706644751a4480bd75f8c165c
+run_name: resilient-shrike-10
+run_uuid: e16e06e706644751a4480bd75f8c165c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747880922410
+status: 3
+tags: []
+user_id: ASUS

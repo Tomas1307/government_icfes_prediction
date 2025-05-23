@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/956201576569699187/db30b7788de34c9582126c6a6cb4cae9/artifacts
+end_time: 1747895182327
+entry_point_name: ''
+experiment_id: '956201576569699187'
+lifecycle_stage: active
+run_id: db30b7788de34c9582126c6a6cb4cae9
+run_name: carefree-elk-967
+run_uuid: db30b7788de34c9582126c6a6cb4cae9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747895169942
+status: 3
+tags: []
+user_id: ASUS

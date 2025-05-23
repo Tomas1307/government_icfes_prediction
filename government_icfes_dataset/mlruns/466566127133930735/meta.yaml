@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/466566127133930735
+creation_time: 1747798074518
+experiment_id: '466566127133930735'
+last_update_time: 1747798074518
+lifecycle_stage: active
+name: kfold_regression_baseline

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294710831823527254/c40d0a1328d8499092327fa6f137af2c/artifacts
+end_time: 1747850961034
+entry_point_name: ''
+experiment_id: '294710831823527254'
+lifecycle_stage: active
+run_id: c40d0a1328d8499092327fa6f137af2c
+run_name: hilarious-shark-756
+run_uuid: c40d0a1328d8499092327fa6f137af2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747850907264
+status: 3
+tags: []
+user_id: ASUS

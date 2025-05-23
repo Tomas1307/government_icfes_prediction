@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/956201576569699187/4f5649cbe84c4b478863d0bd44bfef6b/artifacts
+end_time: 1747886819633
+entry_point_name: ''
+experiment_id: '956201576569699187'
+lifecycle_stage: active
+run_id: 4f5649cbe84c4b478863d0bd44bfef6b
+run_name: casual-carp-678
+run_uuid: 4f5649cbe84c4b478863d0bd44bfef6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747886805761
+status: 3
+tags: []
+user_id: ASUS

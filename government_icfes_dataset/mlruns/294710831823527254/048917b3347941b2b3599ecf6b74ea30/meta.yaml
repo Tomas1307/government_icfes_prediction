@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294710831823527254/048917b3347941b2b3599ecf6b74ea30/artifacts
+end_time: 1747872382222
+entry_point_name: ''
+experiment_id: '294710831823527254'
+lifecycle_stage: active
+run_id: 048917b3347941b2b3599ecf6b74ea30
+run_name: omniscient-gnat-115
+run_uuid: 048917b3347941b2b3599ecf6b74ea30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747872369798
+status: 3
+tags: []
+user_id: ASUS
