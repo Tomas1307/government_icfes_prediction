@@ -61,7 +61,6 @@ def run_gridsearch_with_mlflow(
         # Split data
         df_trainval, df_test = train_test_split(df, test_size=test_size, random_state=42)
         df_train, df_val = train_test_split(df_trainval, test_size=val_frac, random_state=42)
-        # Eliminar variables derivadas para evitar data leakage
         if target_col == 'punt_matematicas':
             df_train = df_train.drop(columns=['eco'], errors='ignore')
             df_val = df_val.drop(columns=['eco'], errors='ignore')
@@ -70,7 +69,6 @@ def run_gridsearch_with_mlflow(
             df_val = df_val.drop(columns=['punt_matematicas'], errors='ignore')
 
 
-        # Init model
         model_class = ConvRegressor if task_type == 'regression' else ConvClassifier
         model = model_class(
             embedding_dim=params['embedding_dim'],
@@ -79,7 +77,6 @@ def run_gridsearch_with_mlflow(
         )
         model.build_model(df_train.copy(), target_col)
 
-        # Train
         model.train(
             target_col=target_col,
             val_df=df_val.copy(),

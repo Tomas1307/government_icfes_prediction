@@ -18,7 +18,6 @@ class LabelEncoderWithUnknown(LabelEncoder):
         y = y.astype(str)
         unknown_mask = ~np.isin(y, self.classes_)
         if unknown_mask.any():
-            # Opcional: advertencia
             print(f"[LabelEncoderWithUnknown] {unknown_mask.sum()} valores no vistos transformados a '__unknown__'")
         y_cleaned = np.where(unknown_mask, "__unknown__", y)
         return super().transform(y_cleaned)
