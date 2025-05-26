@@ -303,10 +303,6 @@ create_presentation_dashboard(
 - [ ] Optimizar arquitectura con AutoML
 - [ ] Crear API para predicciones en tiempo real
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
 ## Contacto
 
 **Equipo de Desarrollo:**

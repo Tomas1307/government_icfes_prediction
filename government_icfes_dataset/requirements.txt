@@ -7,3 +7,7 @@ mlflow
 matplotlib
 seaborn
 tqdm
+dash
+dash-bootstrap-components
+plotly
+joblib
