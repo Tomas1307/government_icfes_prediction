@@ -4,3 +4,4 @@ models/
 government_icfes_dataset/data/
 __pycache__/
 *.pyc
+*.pem
